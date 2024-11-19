@@ -1,0 +1,198 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #0b74de;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-logo {
+    width: 150px;
+    height: auto;
+    border-radius: .8em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1em;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6f61;
+}
+
+.search-bar input {
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 3em 1em;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cta-button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 1em 2em;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ff3b3b;
+}
+
+/* Categories Section */
+.categories {
+    background-color: white;
+    padding: 2em 1em;
+    text-align: center;
+}
+
+.category-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.category-card {
+    background-color: #0b74de;
+    color: white;
+    padding: 1em;
+    border-radius: 5px;
+    width: 150px;
+    transition: background-color 0.3s ease;
+}
+
+.category-card:hover {
+    background-color: #ff6f61;
+}
+
+/* Courses Section */
+.popular-courses {
+    background-color: #f9f9f9;
+    padding: 2em 1em;
+    text-align: center;
+}
+
+.course-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.course-card {
+    background-color: white;
+    padding: 1em;
+    border-radius: 5px;
+    width: 200px;
+    text-align: left;
+    transition: box-shadow 0.3s ease;
+}
+
+.course-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.course-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.course-button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.course-button:hover {
+    background-color: #ff3b3b;
+}
+
+/* Reviews Section */
+.reviews {
+    background-color: white;
+    padding: 2em 1em;
+    text-align: center;
+}
+
+.review {
+    max-width: 600px;
+    margin: 0 auto;
+    font-style: italic;
+}
+
+.review h4 {
+    font-weight: normal;
+    margin-top: 1em;
+}
+
+/* Footer */
+footer {
+    background-color: #0b74de;
+    color: white;
+    padding: 2em 1em;
+    text-align: center;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+.footer-links li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links li a:hover {
+    color: #ff6f61;
+}
